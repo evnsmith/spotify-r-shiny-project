@@ -2,6 +2,7 @@
 
 This is a simple Spotify music recommendations app built using R, Shiny, and the Spotify API. The app takes user input for moods and genres, then generates a list of recommended tracks based on the selected preferences
 
+![Screenshot of the app](Screenshot 2023-04-17 143412.png)
 ## Features
 
 - Selection of moods and genres for personalized music recommendations
