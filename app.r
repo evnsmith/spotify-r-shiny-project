@@ -18,11 +18,11 @@ ui <- fluidPage(
     sidebarPanel(
       selectInput("mood", "Select a mood:", 
                   choices = c("workout", "party", "chill", "study", "cooking", "commuting", "relaxing", "meditating", "playing video games", "sad")),
-      selectInput("genre1", "Select a genre (Required):", 
+      selectInput("genre1", "Select a genre:", 
                   choices = c("alternative", "blues", "classical", "country", "dance", "electronic", "folk", "hip-hop", "indie", "jazz", "metal", "pop", "soul", "reggae", "rock")),
-      selectInput("genre2", "Select a genre (optional):", 
+      selectInput("genre2", "Select a genre:", 
                   choices = c("alternative", "blues", "classical", "country", "dance", "electronic", "folk", "hip-hop", "indie", "jazz", "metal", "pop", "soul", "reggae", "rock")),
-      selectInput("genre3", "Select a genre (optional):", 
+      selectInput("genre3", "Select a genre:", 
                   choices = c("alternative", "blues", "classical", "country", "dance", "electronic", "folk", "hip-hop", "indie", "jazz", "metal", "pop", "soul", "reggae", "rock")),
       actionButton("submit_button", "Get Recommendations")
     ),
